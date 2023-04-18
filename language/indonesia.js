@@ -1,12 +1,12 @@
 exports.onlyPrem = `Fitur khusus member premium`
-exports.aikey = `apikey open ai salah, silahkan ganti di settins.js`
-exports.DelSetWel = `Sukses delete set welcome di grup ini`
-exports.NoSetWel = `Belum ada set welcome di grup ini`
-exports.DelSetLeft = `Sukses delete set goodbye di grup ini`
-exports.NoSetLeft = `Belum ada set goodbye di grup ini`
-exports.doneSet = `Sudah di ubah sebelumnya`
-exports.serverErr = `Server sedang eror`
-exports.kodeErr = `Kode bahasa salah, silahkan cek menggunakan perintah .kodebahasa`
+exports.aikey = `the api key openai is wrong, please change it in settings.js`
+exports.DelSetWel = `Success delete set welcome in this group`
+exports.NoSetWel = `There is no welcome set in this group yet`
+exports.DelSetLeft = `Success delete set goodbye in this group`
+exports.NoSetLeft = `There is no set goodbye yet in this group`
+exports.doneSet = `It's been changed before`
+exports.serverErr = `Server > eror`
+exports.kodeErr = `Incorrect language code, please check using the .codelanguage command`
 exports.Tts = (prefix, command) => {
     return `Contoh :
 
@@ -69,8 +69,8 @@ tr : Turkish
 vi : Vietnamese
 cy : Welsh`
 exports.limitLu = (m) =>{
-	return`Sisa limit kamu : ${m} `
-	}
+	return`Your remaining limit : ${m} `
+}
 	
 exports.addstik = (a, b) =>{
 	return`List ${a} dengan key ${b} sudah ada di database`
@@ -161,7 +161,7 @@ exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
+	return`Hey ${a} ${b} 🤗, je suis un bot cree par andy en quoi je peux t'aider?`
 	}
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
@@ -697,7 +697,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `⏳ Please wait a moment`
 }
 exports.ok = () => {
     return `✅ Done.`
